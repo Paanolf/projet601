@@ -1,0 +1,1 @@
+/*Permets de creer une zone de terrains et de la sauvegarder dans un fichier binaire*/
