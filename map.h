@@ -1,7 +1,7 @@
 #ifndef _MAP_H_
 #define _MAP_H_
 
-/*Représente la carte.*/
+/*Représente la carte. Créée à partir d'un fichier binaire généré par editor.c*/
 typedef struct {
   unsigned short hauteur;
   unsigned short largeur;
@@ -16,4 +16,6 @@ typedef struct {
   unsigned short genZombie; /*periode de génération de zombie*/
   unsigned char nbMaxZombies; /*nombre maximum de zombies, ne peut pas dépasser 20*/
 }map_t;
+
+map_t * createMap(char *);
 #endif

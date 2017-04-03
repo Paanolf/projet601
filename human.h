@@ -12,6 +12,6 @@ typedef struct {
 
 
 human_t * createHuman(int, int, int, int, int);
-void moveHuman(int, int);
+void moveHuman(human_t *, int, int);
 
 #endif
